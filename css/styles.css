@@ -1,18 +1,48 @@
 /* styles.css */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(29, 104, 107);
 }
 
-.genero-container {
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  background-color: #f8f8f8;
+section {
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(29, 104, 107);
 }
 
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(29, 56, 107);
+}
 
+.cartel {
+  width: 160px;
+} 
+
+.genero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.genero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pelicula {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px; 
+  text-align: center;
+  background-color:rgb(238, 238, 238);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(23, 26, 14, 0.1);
+  padding: 10px;
+}
